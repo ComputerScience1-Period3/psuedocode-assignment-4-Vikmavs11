@@ -28,3 +28,19 @@ else no one suspects the person has lied
 then that player gets away with it and he loses the cards he played
 
 Instructions repitition
+
+define ammount of players
+define card values
+establish a counter to what card that they should put // 1, 2, 3, 4, etc.
+give each player same ammount of cards 
+if number of players is not divisable by 52:
+  set remainder to the middle // don't show the cards that have been discarded
+else:
+  do nothing
+on player 1 turn:
+  allow player to pick from cards available to submit their cards to counter
+
+if any player calls bs:
+  check played previous cards played
+else do nothing
+  
